@@ -1,24 +1,19 @@
-# README
+# PARENTHEZE
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Plateforme en développement dédiée aux parents et destinée à faciliter les rencontres de voisinage et la pratique d'échange de garde d'enfant ou la mutualisation de baby-sitter.
 
-Things you may want to cover:
+Projet de solution collaborative destinée à révolutionner les usages, créer du lien social et offrir les solutions de garde qui accompagneront la nouvelle génération de parent.
 
-* Ruby version
+### informations
 
-* System dependencies
+[Parentheze - La nouvelle vie des parents](http://www.parentheze.com)
 
-* Configuration
+[Parentheze sur facebook](http://www.facebook.com/parenthezeapp)
 
-* Database creation
+### Avancement
 
-* Database initialization
+- Prototype html/css >> OK
 
-* How to run the test suite
+- Site de pré-inscription >> en cours
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Plateforme Béta >> à venir
