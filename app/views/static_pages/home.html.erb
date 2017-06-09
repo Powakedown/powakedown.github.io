@@ -1,0 +1,172 @@
+<% provide(:title, "Accueil") %>
+<!-- ++++++++++++++++++++++++  HEADER   ++++++++++++++++++++++++++++++++++ !-->
+    <div class="background-header">
+        <div class="container">
+    <!-- ++++++++++++++++++++++++  MENU ++++++++++++++++++++++++++++++++++++++ !-->
+            <div class="row top-header">
+                    <nav class="navbar navbar-default">
+                        <div class="container-fluid">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                              </button>
+                              <a class="navbar-brand" href="http://www.parentheze.com"><%= image_tag("Parentheze_logo_white.png") %>
+                            </div>
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                              <ul class="nav navbar-nav">
+                                <li class="inscription" ><% link_to "Inscription", inscription_path %><span class="sr-only">(current)</span></li>
+                                <li><a href="https://medium.com/@parentgenial/manifeste-de-parentheze-2468f5c670eb#.fm07sd4ve" target="_blank">Manifeste</a></li>
+                                <li><a href="https://medium.com/@parentgenial" target="_blank">Blog</a></li>
+                                <li><a href="https://www.facebook.com/parenthezeapp/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                              </ul>
+                            </div><!-- /.navbar-collapse -->
+                        </div><!-- /.container-fluid -->
+                    </nav>
+            </div>
+    <!-- ++++++++++++++++++++++++  VALUE PROPOSITION  ++++++++++++++++++++++++ !-->
+            <div class="container">
+                <div class="row immersion">
+                    <div class="col-xs-12 col-md-12 message text-center">
+                        <h1>La nouvelle vie des Parents.</h1>
+                        <p class="hidden-xs-device hidden-xs-up sous-titre">Rencontre entre parents, échange de garde, mutualisation de babysitter, organisation d’évènements... Entre parents, nous avons tant à partager.</p>
+                        <div class="text-center">
+                        <%= image_tag("windows.png") %>
+                        <%= image_tag("apple.png") %>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+<!-- ++++++++++++++++++++++++  PREVIEW  ++++++++++++++++++++++++++++++++++ !-->
+        <div class="container preview">
+            <div class="row margin-bot120 text-center">
+                <div class="col-xs-12 col-md-6 margin-bot40 hidden-md-device-up hidden-md-up">
+                <p class="sous-titre">Rencontre entre parents, échange de garde, mutualisation de babysitter et bien plus encore... </p>
+                </div>
+                <div class="col-xs-12 col-md-6"><%= image_tag("Webapp_preview.png") %></div>
+                <div class="col-xs-12 col-md-6">
+                    <h1>Trouvez des parents comme vous,</h1>
+                    <p>autour de vous, qui ont les mêmes besoins et les mêmes envies. Parentheze est une plateforme collaborative là pour favoriser les rencontres et les échanges.</p>
+                </div>
+            </div>
+        </div>
+
+<!-- ++++++++++++++++++++++++  EXEMPLES ++++++++++++++++++++++++++++++++++ !-->
+    <div class="container">
+        <div class="row exemples text-center margin-bot120">
+            <div class="col-xs-12 col-md-12 margin-bot40">
+                <h1>Des forfaits pour la garde des enfants</h1>
+                <p>Parce que payer est parfois plus facile que de demander un service, une compensation est offerte aux parents qui gardent les enfants de leurs voisins et amis.</p>
+            </div>
+            <div class="col-xs-12 col-md-3 thumbnail-container">
+                <div class="thumbnail">
+                    <h1>22€</h1>
+                    <p>La soirée</br>en amoureux</p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-3 thumbnail-container   ">
+                <div class="thumbnail">
+                    <h1>35€</h1>
+                    <p>La soirée </br>+ La nuit</p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-3 thumbnail-container   ">
+                <div class="thumbnail">
+                    <h1>45€</h1>
+                    <p>La soirée + La nuit</br>+ La grasse mat'</p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-3 thumbnail-container   ">
+                <div class="thumbnail">
+                    <h1>45€</h1>
+                    <p>Panique!</br>Grêve à l'école</p>
+                </div>
+            </div>           
+        </div>
+    </div>
+<!-- ++++++++++++++++++++++++  FEATURES ++++++++++++++++++++++++++++++++++ !-->
+
+    <div class="container-fluid">
+        <div class="row margin-bot120 features text-center">
+            <div class="col-xs-12 col-md-4 text-center">
+                <div class="feature">
+                    <%= image_tag("Pic_geolocaliser.png", class:"pictos")%> 
+                    <p>Recherche géolocalisée des parents autour de vous.</p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4 text-center ">
+                <div class="feature">
+                <%= image_tag("Pic_contact.png", class:"pictos") %>
+                <p>Outils de type capsule pour les rencontres de quartier.</p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4 text-center ">
+                <div class="feature">
+                <%= image_tag("Pic_plane.png", class:"pictos") %>
+                <p>Messagerie simplifiée intégrée aux profils parents.</p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4 text-center ">
+                <div class="feature">
+                <%= image_tag("Pic_dollars.png", class:"pictos") %>
+                <p>Paiement sécurisée pour compenser la garde.</p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4 text-center ">
+                <div class="feature">
+                <%= image_tag("Pic_diamond.png", class:"pictos") %>
+                <p>Assurance d'un spécialiste du collaboratif incluse.</p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4 text-center">
+                <div class="feature">
+                <%= image_tag("Pic_coeur.png", class:"pictos") %>
+                <p>Système de réputation pour les bons usages sociaux.</p>
+                </div>
+            </div>               
+        </div> 
+    </div>
+
+<!-- ++++++++++++++++++++++++  FOOTER   ++++++++++++++++++++++++++++++++++ !-->
+    <div class="container-fluid footer">
+                <div class="container text-center">
+                    <div class="row ">
+                        <div class="col-md-3 col-xs-12">
+                            <a href="http://www.parentheze.com"><%= image_tag ("Parentheze_logo_white.png") %></a>
+                        </div>
+                        <div class="footer-menu col-md-3 col-xs-12">
+                            <ul>
+                            <li><strong>Plan du site</strong></li>
+                            <li><a href="http://www.parentheze.com/blog" target="_blank">Inscription</a></li>
+                            <li><a href="https://medium.com/@parentgenial/manifeste-de-parentheze-2468f5c670eb#.fm07sd4ve" target="_blank">Manifeste</a></li>
+                            <li><a href="https://medium.com/@parentgenial" target="_blank">Blog</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-menu col-md-3 col-xs-12">
+                            <ul>
+                            <li><strong>Suivez-nous sur:</strong></li>
+                            <li><a href="http://www.facebook.com/parenthezeapp/" target="_blank">Facebook</a></li>
+                            <li><a href="https://twitter.com/@parentgenial/" target="_blank">Twitter</a></li>
+                            <li><a href="https://medium.com/@parentgenial" target="_blank">Medium</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-menu col-md-3 col-xs-12">
+                            <ul>
+                            <li><strong>Mentions Légales</strong></li>
+                            <li><a href="cgu.pdf" target="_blank">CGU</a></li>
+                            <li><a href="https://goo.gl/forms/wV7vpHRv25BVMyCl2" target="_blank">Nous contacter</a></li>
+                            </ul>  
+                        </div>
+                    </div>
+                    <div class="copyright">
+                    <p class="">Copyright © Parentheze, Tous droits réservés - Fait à Bordeaux avec <img draggable="false" class="emoji" alt="❤" src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Twemoji_2764.svg" data-pin-nopin="true"></p>
+                    </div>
+                </div>
+    </div>
+

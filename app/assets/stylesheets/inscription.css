@@ -1,0 +1,291 @@
+.inscription-frame-1, .inscription-frame-2, .inscription-frame-3, 
+.inscription-frame-4, .inscription-frame-5, .inscription-frame-6, .inscription-frame-7{
+	display: none;
+}
+
+@media (max-device-width: 414px) {
+.inscription-frame{
+	background-color: #ededed;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+  	width: 100%;
+  	color: #787880;
+}
+.inscription-frame-0  h1, .inscription-frame-0 p{
+	text-align: center;
+}
+.form-titre{
+	margin-top: 0px;
+	padding-right: 12%;
+	padding-left:12%;
+	margin-bottom: 10%;
+}
+}
+@media (min-device-width: 415px) {
+.inscription-frame{
+	background-color: #ededed;
+	position: absolute;
+  	width: 900px;
+  	height: 509px;
+  	top: 50%;
+  	margin-top: -254px;
+  	left: 50%;
+  	margin-left: -450px;
+  	color: #787880;
+}
+.form-titre{
+	margin-top: 0px;
+	padding-right: 100px;
+	padding-left:100px;
+	margin-bottom: 20px;
+}
+}
+.inscription-frame h1,
+.inscription-frame p,
+.inscription-frame label{
+	font-family: "Open sans", sans-serif;
+	font-weight: 300;
+}
+
+
+h1{
+	font-size:26px;
+	letter-spacing: 1px;
+	line-height: 1.2;
+	color: #27282d;
+}
+
+p{
+	font-size:15px;
+	letter-spacing: 1px;
+	line-height: 1.6;
+	color: #787880;
+}
+@media (max-device-width: 414px) {
+.btns{
+margin-top: 18%;
+margin-bottom: 18%;
+}
+}
+
+@media (min-device-width: 415px) {
+.btns{
+	position: absolute;
+	bottom: 30px;
+}
+}
+.btn-parentheze{
+  	width:120px;
+  	height: 40px;  
+}
+.btn-parentheze-vert{
+	background-color: #008000;
+
+}
+@media (max-device-width: 414px) {
+.btn-parentheze-vert, .btn-parentheze-gris{
+	margin-bottom: 30px;
+}
+}
+.btn-parentheze-gris{
+	background-color: transparent;
+	color: #7f7f87;
+}
+.btn-parentheze-orange{
+	background-color: #fbb042;
+}
+label{
+	margin-bottom: 20px;
+}
+textarea{
+	resize: none;
+}
+.form-control{
+	border: 0px;
+	height: 40px;
+	font-size:13px;
+	color: #7f7f87;
+	font-family: "Open sans", sans-serif;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+.pagination{
+	text-align: center;
+	margin-top:12px;
+	margin-bottom: 0px;
+}
+.width40pr{
+	width: 45%;
+	float: left;
+}
+/*------------------------------FORM 0------------------------------*/
+.inscription-frame-0{
+  background-color: #362478;
+}
+
+@media (max-device-width: 414px) {
+.inscription-frame-0-container{
+	padding: 20% 10% 10% 10%;
+}
+.inscription-frame-0 img{
+	width: 70%;
+	margin-bottom: 12%;
+}
+}
+@media (min-device-width: 415px) {
+.inscription-frame-0-container{
+	padding: 100px 150px 0px 150px;
+	width: 900px;
+}
+.inscription-frame-0 img{
+	width: 150px;
+	margin-bottom: 20px;
+}
+}
+.inscription-frame-0 h1,
+.inscription-frame-0 p{
+	color:white;
+	font-family: "Open sans", sans-serif;
+	line-height: 1.8;	
+}
+.inscription-frame-0 h1{
+	font-size:26px;
+	letter-spacing: 2px;
+	line-height: 1.2;
+	margin-bottom: 20px;
+}
+.inscription-frame-0 p{
+	font-size:15px;
+	letter-spacing: 1px;
+	line-height: 1.6;
+}
+/*------------------------------FORM 1------------------------------*/
+@media (max-device-width: 414px) {
+.form1-text{
+	padding: 0% 15% 0% 15%;
+}
+.form1-container{
+	padding: 8% 15% 0% 15%;
+	}
+}
+@media (min-device-width: 415px) {
+.form1-text{
+	margin-top: 100px;
+	padding-left: 50px;
+	text-align: right;
+}
+.form1-container{
+	padding: 80px 80px 0px 80px;
+	}
+}
+/*------------------------------FORM 2------------------------------*/
+@media (max-device-width: 414px) {
+.form2-text{
+	padding: 0% 15% 0% 15%;
+}
+.form2-container{
+	padding: 8% 15% 0% 15%;
+	}
+
+}
+@media (min-device-width: 415px) {
+.form2-text{
+	margin-top: 70px;
+	padding-left: 60px;
+	text-align: right;
+}
+.form2-container{
+	padding: 60px 80px 0px 80px;
+}
+}
+/*------------------------------FORM 3------------------------------*/
+@media (max-device-width: 414px) {
+.form3-container{
+	padding: 0% 10% 0% 10%;
+}
+}
+@media (min-device-width: 415px) {
+.form3-container{
+	padding: 80px 80px 0px 80px;
+}
+}
+/*------------------------------FORM 4------------------------------*/
+
+.inscription-frame-4 .form-titre{
+	margin-bottom: 20px;
+}
+@media (max-device-width: 414px) {
+ .form-container{
+	padding-right: 8%;
+	padding-left: 8%;
+}
+.exemple_photo img{
+	margin: 0px;	
+	padding: 1%;
+}
+.ajouter{
+	margin-top: 10%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.ajouter img{
+	margin-bottom: 5%;
+}
+}
+@media (min-device-width: 415px) {
+.form-container{
+	padding: 0px 90px 0 90px;
+}
+.exemple_photo img{
+  	margin: 0px -3px 10px -3px;
+}
+}
+/*------------------------------FORM 5------------------------------*/
+@media (max-device-width: 414px) {
+#form5{
+	margin-bottom: 10%;
+}
+#form5 .checkbox{
+	margin-bottom: 5%;
+	margin-top: 10%
+}
+}
+@media (min-device-width: 415px) {
+#form5 .checkbox{
+	margin-bottom: 25px;
+}
+.inscription-frame-5 .picto{
+	padding: 25px 0px 0px 25px;
+}
+.inscription-frame-5 .form-titre{
+	margin-bottom: 50px;
+}
+}
+.inscription-frame-5 img{
+	width: 150px;
+}
+/*------------------------------FORM 6------------------------------*/
+@media (max-device-width: 414px) {
+.form6-container{
+	padding: 10% 12% 0% 12%;
+}
+.inscription-frame-6 .form1-text{
+	text-align: center;
+}
+}
+@media (min-device-width: 415px) {
+.form6-container{
+	padding: 40px 80px 0px 80px;
+}
+}
+/*------------------------------FORM 7------------------------------*/
+.inscription-frame-7 img{
+	width: 100%;
+}
+@media (min-device-width: 415px) {
+.form7-container{
+	padding-left: 40px;
+	padding-top: 50px;
+}
+}
