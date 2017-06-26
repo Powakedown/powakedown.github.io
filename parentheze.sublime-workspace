@@ -4,6 +4,58 @@
 		"selected_items":
 		[
 			[
+				"mark",
+				"mark_task_as_done	(controller.rb)"
+			],
+			[
+				"mar",
+				"mark_task_as_done	(controller.rb)"
+			],
+			[
+				"ask",
+				"ask_user_id	(view.rb)"
+			],
+			[
+				"prin",
+				"print_task	(view.rb)"
+			],
+			[
+				"task",
+				"tasks	(controller.rb)"
+			],
+			[
+				"des",
+				"description"
+			],
+			[
+				"eac",
+				"each	(controller.rb)"
+			],
+			[
+				"i",
+				"image_tag	(home.html.erb)"
+			],
+			[
+				"inscr",
+				"inscription_path	(users_controller_test.rb)"
+			],
+			[
+				"assert",
+				"assert_response"
+			],
+			[
+				"paren",
+				"parentheze	(home.html.erb)"
+			],
+			[
+				"PArent",
+				"Parentheze	(home.html.erb)"
+			],
+			[
+				"stat",
+				"static_pages/home"
+			],
+			[
 				"acti",
 				"activate	(user.rb)"
 			],
@@ -26,10 +78,6 @@
 			[
 				"redir",
 				"redirect_to"
-			],
-			[
-				"assert",
-				"assert_not"
 			],
 			[
 				"o",
@@ -172,10 +220,6 @@
 				"margin"
 			],
 			[
-				"mar",
-				"margin-left"
-			],
-			[
 				"btn",
 				"btnInt"
 			],
@@ -261,23 +305,32 @@
 			]
 		]
 	},
-	"buffers":
-	[
-		{
-			"file": "parentheze.sublime-project",
-			"settings":
-			{
-				"buffer_size": 96,
-				"line_ending": "Unix"
-			}
-		}
-	],
 	"build_system": "",
 	"command_palette":
 	{
 		"height": 381.0,
 		"selected_items":
 		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby on Rails"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
 			[
 				"",
 				"Package Control: List Packages"
@@ -287,7 +340,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 575.0
+		"width": 458.0
 	},
 	"console":
 	{
@@ -304,8 +357,55 @@
 	},
 	"file_history":
 	[
-		"/Users/apple/workspace/sample_app/config/routes.rb",
+		"/Users/apple/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/apple/.bashrc",
+		"/Users/apple/.git-completion.bash",
+		"/Users/apple/.bash_profile",
+		"/Users/apple/t",
+		"/Users/apple/found",
+		"/Users/apple/.bash_profile.swp",
+		"/Users/apple/ptz",
+		"/Users/apple/tmp/tasks/app.rb",
+		"/Users/apple/tmp/tasks/router.rb",
+		"/Users/apple/tmp/tasks/test_scenario.rb",
+		"/Users/apple/tmp/tasks/view.rb",
+		"/Users/apple/tmp/tasks/controller.rb",
+		"/Users/apple/tmp/tasks/task.rb",
+		"/Users/apple/tmp/tasks/save/controller.rb",
+		"/Users/apple/tmp/tasks/tasks.rb",
+		"/Users/apple/tmp/tasks/a",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/assets/stylesheets/application.scss",
+		"/Users/apple/Projet/Dropbox/bash",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/assets/stylesheets/style.css",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/views/static_pages/home.html.erb",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/config/environments/production.rb",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/controllers/users_controller.rb",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/config/routes.rb",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/test/controllers/users_controller_test.rb",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/views/users/inscription.html",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/views/users/new.html.erb",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/tmp/cache/assets/sprockets/v3.0/HH/hh0_MQVbOqMBpOUnEJ2h_EdGoKzBBKykpeg3CJtCXEI.cache",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/Gemfile",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/test/controllers/static_pages_controller_test.rb",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/views/layouts/application.html.erb",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/assets/stylesheets/font-awesome.min.css",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/assets/javascripts/application.js",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/assets/stylesheets/custom.scss",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/assets/stylesheets/application.css",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/assets/config/meta.yml",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/.gitignore",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/views/layouts/_shim.html.erb",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/helpers/meta_tags_helper.rb",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/views/layouts/_meta_html.erb",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/assets/config/manifest.js",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/controllers/application_controller.rb",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/helpers/application_helper.rb",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/config/initializers/default_meta.rb",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/controllers/static_pages_controller.rb",
+		"/Users/apple/workspace/sample_app/app/views/layouts/application.html.erb",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/WEB/index.html",
 		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/parentheze.sublime-project",
+		"/Users/apple/workspace/sample_app/config/routes.rb",
 		"/Users/apple/workspace/sample_app/sampleapp.sublime-project",
 		"/Users/apple/workspace/sample_app/config/environments/production.rb",
 		"/Users/apple/workspace/sample_app/app/models/user.rb",
@@ -345,13 +445,11 @@
 		"/Users/apple/workspace/sample_app/app/views/users/new.html.erb",
 		"/Users/apple/workspace/sample_app/test/controllers/sessions_controller_test.rb",
 		"/Users/apple/workspace/sample_app/app/views/sessions/new.html.erb",
-		"/Users/apple/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/apple/workspace/sample_app/config/puma.rb",
 		"/Users/apple/workspace/sample_app/db/migrate/20170518135234_add_remember_digest_to_users.rb",
 		"/Users/apple/workspace/sample_app/test/controllers/static_pages_controller_test.rb",
 		"/Users/apple/workspace/sample_app/app/controllers/application_controller.rb",
 		"/Users/apple/workspace/sample_app/app/assets/javascripts/application.js",
-		"/Users/apple/workspace/sample_app/app/views/layouts/application.html.erb",
 		"/Users/apple/workspace/sample_app/Procfile",
 		"/Users/apple/workspace/sample_app/app/views/shared/_error_messages.html.erb",
 		"/Users/apple/workspace/sample_app/app/views/users/show.html.erb",
@@ -386,42 +484,7 @@
 		"/Users/apple/workspace/toy_app/app/models/micropost.rb",
 		"/Users/apple/workspace/toy_app/app/controllers/users_controller.rb",
 		"/Users/apple/workspace/toy_app/Gemfile",
-		"/Users/apple/workspace/hello_app/README.md",
-		"/Users/apple/workspace/hello_app/Gemfile",
-		"/Users/apple/workspace/hello_app/app/controllers/application_controller.rb",
-		"/Users/apple/workspace/hello_app/config/routes.rb",
-		"/Users/apple/workspace/Gemfile",
-		"/Users/apple/.ssh/config",
-		"/Users/apple/.gitconfig",
-		"/Users/apple/workspace/config",
-		"/Users/apple/repos/website/index.html",
-		"/Users/apple/.bash_profile",
-		"/Users/apple/repos/website/about.html",
-		"/Users/apple/Projet/Dropbox/PARENTHEZE/WEB/mosaique.html",
-		"/Users/apple/Projet/Dropbox/PARENTHEZE/WEB/index.html",
-		"/Users/apple/Projet/Dropbox/PARENTHEZE/WEB/inscription.html",
-		"/Users/apple/Projet/Dropbox/PARENTHEZE/WEB/parentheze.sublime-project",
-		"/usr/bin/static_pages_controller.rb",
-		"/usr/bin/a2p5.16",
-		"/usr/bin/productbuild",
-		"/Users/apple/README.md",
-		"/Users/apple/bin/ekill",
-		"/Users/apple/hello",
-		"/Users/apple/hello.rb",
-		"/Users/apple/foo.rb",
-		"/Users/apple/greeter.rb",
-		"/Users/apple/sonnets.xt",
-		"/Users/apple/test.rb",
-		"/Users/apple/lorem.txt",
-		"/Users/apple/Projet/Dropbox/PARENTHEZE/WEB/css/inscription.css",
-		"/Users/apple/Projet/Dropbox/PARENTHEZE/WEB/js/application.js",
-		"/Users/apple/Projet/Dropbox/PARENTHEZE/WEB/css/request.css",
-		"/Users/apple/Projet/Dropbox/PARENTHEZE/WEB/css/style.css",
-		"/Users/apple/Projet/Dropbox/PARENTHEZE/WEB/css/mosaique.css",
-		"/Users/apple/Projet/Dropbox/PARENTHEZE/WEB/css/test.html",
-		"/Users/apple/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
-		"/Users/apple/Library/Application Support/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
-		"/Users/apple/Google Drive/WEB/index.html"
+		"/Users/apple/workspace/hello_app/README.md"
 	],
 	"find":
 	{
@@ -443,6 +506,28 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"e",
+			"wKU",
+			"subl",
+			"url",
+			"sr-only",
+			"image_tag",
+			"img",
+			"<img src=\"assets/",
+			"img",
+			"image",
+			"mac",
+			"image",
+			"images",
+			"@import \"font-awesome-sprockets\";",
+			"jpg",
+			"geoloca",
+			"img",
+			"image",
+			"img",
+			"images/",
+			"../images/",
+			"ParenthezeApp",
 			"young-tundra-71746.herokuapp.com",
 			"mailer",
 			"activated?",
@@ -548,29 +633,7 @@
 			"card-profil",
 			"uppercase",
 			"btn-container",
-			"profil-detailed-image",
-			"profil-detail-image",
-			"profil-box",
-			"1000",
-			"414",
-			"195",
-			"ul",
-			"70px",
-			"request-frame",
-			"request-card",
-			"request-frame-col",
-			"768",
-			"mosaique",
-			"card-profil",
-			"card-profil-me",
-			"card-profil",
-			"request-type",
-			"-plans",
-			"type",
-			">\n",
-			"white",
-			"p{",
-			"margin-bot120"
+			"profil-detailed-image"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -578,6 +641,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"\"",
+			"",
 			"is_logged_in",
 			"foobar.",
 			"btnInt",
@@ -590,41 +655,6 @@
 		"whole_word": false,
 		"wrap": false
 	},
-	"groups":
-	[
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 0,
-					"file": "parentheze.sublime-project",
-					"settings":
-					{
-						"buffer_size": 96,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								85,
-								85
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
-			]
-		}
-	],
 	"incremental_find":
 	{
 		"height": 34.0
@@ -675,16 +705,60 @@
 		"selected_items":
 		[
 			[
-				"prod",
+				"app",
+				"app/assets/stylesheets/application.scss"
+			],
+			[
+				"style",
+				"app/assets/stylesheets/style.css"
+			],
+			[
+				"produc",
 				"config/environments/production.rb"
+			],
+			[
+				"applica",
+				"app/assets/stylesheets/application.scss"
 			],
 			[
 				"produ",
 				"config/environments/production.rb"
 			],
 			[
+				"home",
+				"app/views/static_pages/home.html.erb"
+			],
+			[
 				"routes",
 				"config/routes.rb"
+			],
+			[
+				"test",
+				"test/controllers/users_controller_test.rb"
+			],
+			[
+				"new",
+				"app/views/users/new.html.erb"
+			],
+			[
+				"users",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"appl",
+				"app/assets/stylesheets/application.css"
+			],
+			[
+				"appli",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"prod",
+				"config/environments/production.rb"
 			],
 			[
 				"production",
@@ -791,20 +865,12 @@
 				"app/helpers/sessions_helper.rb"
 			],
 			[
-				"test",
-				"test/models/user_test.rb"
-			],
-			[
 				"session",
 				"app/controllers/sessions_controller.rb"
 			],
 			[
 				"custm",
 				"app/assets/stylesheets/custom.scss"
-			],
-			[
-				"new",
-				"app/views/sessions/new.html.erb"
 			],
 			[
 				"users_l",
@@ -815,20 +881,8 @@
 				"test/models/user_test.rb"
 			],
 			[
-				"users",
-				"test/fixtures/users.yml"
-			],
-			[
-				"applica",
-				"app/assets/javascripts/application.js"
-			],
-			[
 				"header",
 				"app/views/layouts/_header.html.erb"
-			],
-			[
-				"app",
-				"app/views/layouts/application.html.erb"
 			],
 			[
 				"cust",
@@ -877,6 +931,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 224.0,
+	"side_bar_width": 272.0,
 	"status_bar_visible": true
 }
