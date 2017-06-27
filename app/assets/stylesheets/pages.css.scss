@@ -1,42 +1,27 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
 
-@import "font-awesome-sprockets";
-@import "font-awesome";
-/*@import "bootstrap-sprockets";
-@import "bootstrap";*/
+@import "config/_variables.css.scss";
+
 
 body{
     margin:0px;
     padding:0px;
     font-family: 'Open Sans', sans-serif;
     font-size:15px;
-    color:#fff;
+    color:white;
 }
+
 .body-app{
-/*    background-color: #201547;*/
-/*    background-color: #190E3D;*/
-      background-color: #1f0046;
+      background-color: $purple;
 }
 .background-header{
-    background-image: url("/assets/header_parentheze.jpg");
+    background-image: url("header_parentheze.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
-    background-color: #1f0046;
+    background-color: $purple;
 }
 /*------------------------------BOOTSTRAP CUSTOM------------------------------*/
 @media (max-device-width: 414px) {
@@ -55,7 +40,7 @@ body{
     margin-bottom: 120px;
 }
 }
-/*------------------------------HEADER------------------------------*/
+/*------------------------------HEADER----------------------------------------*/
 .top-header{
     margin-top: 30px;
     margin-bottom: 50px;
@@ -76,7 +61,7 @@ body{
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a{
     background-color: none;
-    color: #f0ca7c;
+    color: $yellow;
     background-color: transparent;
     background-image: none;
     border:0px;
@@ -112,13 +97,13 @@ a, a:visited, a:active{
 }
 a:hover{
     text-decoration: none;
-    color:#d3d3d3 !important;
+    color:$lightgrey !important;
 }
 h1,p{
-    color:#1e1e20;
+    color:$darkgrey;
 }
 h1{
-   font-size: 44px;
+   font-size: 70px;
    font-weight: 700;
 }
 p, li{
@@ -129,14 +114,14 @@ li{
     list-style: none;
 }
 .inscription{
-    background-color: #f0ca7c;
+    background-color: $yellow;
     border-radius: 5px;
     display: none;
 }
 .features i{
     font-size: 36px;
     margin-bottom: 20px;
-    color:#1e1e20;
+    color:$darkgrey;
 }
 .immersion h1, .immersion p{
     color:white;
@@ -182,14 +167,14 @@ li{
     width:100%;
 }
 
-/*------------------------------PREVIEW------------------------------*/
+/*------------------------------PREVIEW---------------------------------------*/
 .preview img{
     width: 100%;
 }
-/*------------------------------FEATURES------------------------------*/
+/*------------------------------FEATURES--------------------------------------*/
 @media (max-device-width: 414px) {
 .features{
-    background-color: #201547;
+    background-color: #fff;
     padding-top: 40px;
     padding-bottom: 40px;
     padding: 40px;
@@ -197,8 +182,6 @@ li{
 }
 @media (min-device-width: 415px) {
 .features{
-/*    background-image: url("../images/features_background.png");*/
-    background-size: cover;
     background-color: #fff;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -206,7 +189,7 @@ li{
 }
 }
 .feature{
-    border: 3px #f0ca7c solid;
+    border: 3px $yellow solid;
     border-radius: 5px;
     margin: 30px;
     min-height: 180px;
@@ -220,7 +203,7 @@ li{
     height:36px;
     margin-bottom: 30px;
 }
-/*------------------------------EXEMPLES------------------------------*/
+/*-----------------------------------EXEMPLES---------------------------------*/
 .content>.row>.col-md-6:nth-child(2){
     padding: 0px 50px 0px 50px;
 }
@@ -230,9 +213,9 @@ li{
     padding: 15px 15px 15px 15px;
     box-shadow: none;
     min-height: 220px;
-    border:2px #efefef solid;
+    border:2px $lightgrey solid;
     border-radius: 15px;
-    color:#818181;
+    color:$mediumgrey;
     box-shadow: 2px 5px 0px #FAFAFA;
 }
 .thumbnail h1{
@@ -240,36 +223,23 @@ li{
     font-weight: 700;
 }
 .exemples h3{
-    color: #818181;
+    color: $mediumgrey;
     text-align: center;
     margin-bottom: 30px;
 }
 .exemples .thumbnail-container:nth-child(1)>.thumbnail>h1{
-    color: #f0ca7c;
+    color: $yellow;
 }
 .exemples .thumbnail-container:nth-child(2)>.thumbnail>h1{
-    color: #c84689;
+    color: $pink;
 }
 .exemples .thumbnail-container:nth-child(3)>.thumbnail>h1{
-    color: #25afb0;
+    color: $lightblue;
 }
 .exemples .thumbnail-container:nth-child(4)>.thumbnail>h1{
-    color: #fbb042;
+    color: $gold;
 }
-/*------------------------------INVITATION------------------------------*/
-.invitation{
-    background-color: #25afb0;
-    padding-top: 40px;
-}
-.invitation h1, .invitation p{
-   color:white;
-}
-.invitation-card{
-    background-image: url("/assets/invitation_card.jpg");
-    min-height: 669px;
-    background-size: cover;
-}
-/*------------------------------FOOTER------------------------------*/
+/*------------------------------HOME PAGE FOOTER------------------------------*/
 .emoji{
     width: 16px;
     height: 16px;

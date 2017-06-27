@@ -11,6 +11,10 @@ gem 'jbuilder',     '2.6.4'
 gem 'bootstrap-sass', '3.3.7'
 gem 'font-awesome-sass', '~> 4.4.0'
 
+# Gemfile LeWagon
+gem 'simple_form'
+gem 'autoprefixer-rails'
+
 group :development, :test do
   gem 'sqlite3', '1.3.13'
   gem 'byebug',  '9.0.6', platform: :mri

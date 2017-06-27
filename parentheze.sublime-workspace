@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"lig",
+				"lightblue	(pages.scss)"
+			],
+			[
+				"li",
+				"lightgrey"
+			],
+			[
 				"mark",
 				"mark_task_as_done	(controller.rb)"
 			],
@@ -200,10 +208,6 @@
 				"static_pages"
 			],
 			[
-				"li",
-				"list-style"
-			],
-			[
 				"la",
 				"layouts"
 			],
@@ -357,7 +361,26 @@
 	},
 	"file_history":
 	[
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/assets/stylesheets/application.css.scss",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/assets/stylesheets/config/_variables.css.scss",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/assets/stylesheets/pages.css.scss",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/config/routes.rb",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/controllers/pages_controller.rb",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/views/pages/home.html.erb",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/assets/stylesheets/config/_bootstrap_variables.css.scss",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/views/layouts/application.html.erb",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/assets/stylesheets/pages/_home.css.scss",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/Gemfile",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/controllers/application_controller.rb",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/views/layouts/NON_home.html.erb",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/README.md",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/views/layouts/_meta.html.erb",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/assets/stylesheets/_mosaique.css",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/assets/stylesheets/style.css",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/assets/stylesheets/users.scss",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/assets/stylesheets/all.css.scss",
 		"/Users/apple/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/assets/stylesheets/custom.scss",
 		"/Users/apple/.bashrc",
 		"/Users/apple/.git-completion.bash",
 		"/Users/apple/.bash_profile",
@@ -376,21 +399,16 @@
 		"/Users/apple/tmp/tasks/a",
 		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/assets/stylesheets/application.scss",
 		"/Users/apple/Projet/Dropbox/bash",
-		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/assets/stylesheets/style.css",
 		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/views/static_pages/home.html.erb",
 		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/config/environments/production.rb",
 		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/controllers/users_controller.rb",
-		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/config/routes.rb",
 		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/test/controllers/users_controller_test.rb",
 		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/views/users/inscription.html",
 		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/views/users/new.html.erb",
 		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/tmp/cache/assets/sprockets/v3.0/HH/hh0_MQVbOqMBpOUnEJ2h_EdGoKzBBKykpeg3CJtCXEI.cache",
-		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/Gemfile",
 		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/test/controllers/static_pages_controller_test.rb",
-		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/views/layouts/application.html.erb",
 		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/assets/stylesheets/font-awesome.min.css",
 		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/assets/javascripts/application.js",
-		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/assets/stylesheets/custom.scss",
 		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/assets/stylesheets/application.css",
 		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/assets/config/meta.yml",
 		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/.gitignore",
@@ -398,7 +416,6 @@
 		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/helpers/meta_tags_helper.rb",
 		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/views/layouts/_meta_html.erb",
 		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/assets/config/manifest.js",
-		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/controllers/application_controller.rb",
 		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/helpers/application_helper.rb",
 		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/config/initializers/default_meta.rb",
 		"/Users/apple/Projet/Dropbox/PARENTHEZE/Parentheze_app/app/controllers/static_pages_controller.rb",
@@ -471,28 +488,15 @@
 		"/Users/apple/workspace/sample_app/app/views/layouts/_head.html.erb",
 		"/Users/apple/workspace/sample_app/app/views/layouts/_shim.html.erb",
 		"/Users/apple/workspace/sample_app/example_user.rb",
-		"/Users/apple/workspace/sample_app/app/views/static_pages/contact.html.erb",
-		"/Users/apple/workspace/sample_app/.gitignore",
-		"/Users/apple/workspace/sample_app/Guardfile",
-		"/Users/apple/workspace/sample_app/README.md",
-		"/Users/apple/workspace/toy_app/config/routes.rb",
-		"/Users/apple/workspace/toy_app/app/models/user.rb",
-		"/Users/apple/workspace/toy_app/app/views/users/index.json.jbuilder",
-		"/Users/apple/workspace/toy_app/app/views/users/edit.html.erb",
-		"/Users/apple/workspace/toy_app/app/views/users/index.html.erb",
-		"/Users/apple/workspace/toy_app/app/views/users/new.html.erb",
-		"/Users/apple/workspace/toy_app/app/models/micropost.rb",
-		"/Users/apple/workspace/toy_app/app/controllers/users_controller.rb",
-		"/Users/apple/workspace/toy_app/Gemfile",
-		"/Users/apple/workspace/hello_app/README.md"
+		"/Users/apple/workspace/sample_app/app/views/static_pages/contact.html.erb"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 41.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
 			"",
@@ -506,6 +510,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"link_to",
 			"e",
 			"wKU",
 			"subl",
@@ -632,8 +637,7 @@
 			"child{",
 			"card-profil",
 			"uppercase",
-			"btn-container",
-			"profil-detailed-image"
+			"btn-container"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -704,6 +708,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"application.htm",
+				"Parentheze_app/app/views/layouts/application.html.erb"
+			],
 			[
 				"app",
 				"app/assets/stylesheets/application.scss"
