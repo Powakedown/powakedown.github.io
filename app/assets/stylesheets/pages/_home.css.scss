@@ -1,0 +1,184 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import "config/_variables.css.scss";
+
+
+.container-fluid, .banner{
+  background-color: $purple !important;
+  position: relative;
+}
+.banner {
+  position: relative;
+  color: white;
+  height: 100vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  background-position: center;
+  background-color: $purple;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+
+}
+#top{
+  background-image: linear-gradient(-180deg, rgba(31,0,70,0) 10%, rgba(31,0,70,0.3) 100%), url('banner_background.jpg');
+}
+#top .banner-content, #preview .banner-content{
+  width: 600px;
+}
+
+#plan .banner-content, #footer .banner-content{
+  width:800px;
+}
+.banner h1, .banner h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+  letter-spacing: 0px;
+  padding-top: 70%;
+}
+.banner h2 {
+  padding-top: 0px;
+  margin-top: -7px;
+}
+.banner p {
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: white;
+  margin-bottom: 20px;
+  line-height: 25px;
+}
+.banner .btn-primary{
+  background-color: $yellow !important;
+  border-color: $yellow;
+  background-image: none;
+  text-shadow:none;
+  margin-bottom: 30px;
+  border-radius: 20em;
+}
+.banner .btn-primary:hover{
+  background-color: $lightyellow !important;
+  border-color: $yellow;
+  background-image: none;
+  text-shadow:none;
+  box-shadow: none;
+  cursor: pointer;
+}
+.card{
+  width: 180px;
+  margin: 5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+#preview .btn-primary{
+  display: block;
+}
+a:hover{
+  text-decoration: none;
+}
+@media (min-device-width: 320px) and (max-device-width : 667px) and (orientation : landscape){
+.banner{
+  height: 700px;
+}
+}
+@media (min-device-width: 320px) and (max-device-width : 667px){
+#plan .banner-content, #footer .banner-content{
+  width: 310px;
+}
+#top .banner-content, #preview .banner-content, .banner .btn-primary {
+  width: 290px;
+  text-align: center;
+}
+.banner h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  line-height: 40px;
+}
+.banner h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  line-height: 40px;
+}
+.img-medium{
+  width: 100px;
+  margin-bottom: 20px;
+}
+.card{
+  width: 250px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.banner .btn-primary{
+  width: 300px;
+}
+}
+@media (min-device-width: 768px) and (orientation : portrait) {
+#top, #preview .banner-content, .banner .btn-primary {
+  text-align: center;
+}
+#plan .banner-content, #footer .banner-content{
+  width: 600px;
+}
+.img-medium{
+  width: 200px;
+  margin-bottom: 50px;
+}
+.banner h1 {
+  font-size: 81px;
+  margin-bottom: 40px;
+  line-height: 72px;
+}
+.banner h2 {
+  font-size: 61px;
+  margin-bottom: 40px;
+  line-height: 72px;
+}
+
+}
+@media (min-device-width: 769px){
+#preview{
+  text-align: left;
+}
+.banner{
+   min-height: 700px;
+}
+.banner h1 {
+  font-size: 81px;
+  margin-bottom: 40px;
+  line-height: 72px;
+}
+.banner h2 {
+  font-size: 61px;
+  margin-bottom: 40px;
+  line-height: 72px;
+}
+.banner .btn-primary{
+  width: 350px;
+}
+.img-medium{
+  width: 300px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+}
+.btn-scroll-down{
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -17px;
+}
+.picto-wrapper {
+  margin-bottom: 70px;
+  margin-top: 70px;
+  font-size: 40px;
+}
+.picto-wrapper i{
+  margin: 20px;
+}

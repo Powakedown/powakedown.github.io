@@ -1,0 +1,13 @@
+.dropdown, .dropup{
+  position:fixed !important;
+  top: 25px;
+  right: 25px;
+}
+.dropdown-menu{
+  position:absolute !important;
+  top: 25px !important;
+  right:-10px !important;
+}
+.fa-bars{
+  color:white;
+}

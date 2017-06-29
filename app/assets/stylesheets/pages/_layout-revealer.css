@@ -1,0 +1,21 @@
+/* This is the file with the tests css for the layout:
+ - border around boostrap columns
+*/
+.col-xs-2, .col-sm-2, .col-md-2, .col-lg-2{
+  border: 1px solid Beige;
+}
+.col-xs-4, .col-sm-4, .col-md-4, .col-lg-4{
+  border: 1px solid White;
+}
+.col-xs-6, .col-sm-6, .col-md-6, .col-lg-6{
+  border: 1px solid Gainsboro;
+}
+.col-xs-8, .col-sm-8, .col-md-8, .col-lg-8{
+  border: 1px solid LightGray;
+}
+.col-xs-10, .col-sm-10, .col-md-10, .col-lg-10{
+  border: 1px solid Gray;
+}
+.col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{
+  border: 1px solid DimGray;
+}

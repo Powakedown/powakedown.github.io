@@ -1,172 +1,137 @@
 <% provide(:title, "Accueil") %>
-<!-- ++++++++++++++++++++++++  HEADER   ++++++++++++++++++++++++++++++++++ !-->
-    <div class="background-header">
-        <div class="container">
-    <!-- ++++++++++++++++++++++++  MENU ++++++++++++++++++++++++++++++++++++++ !-->
-            <div class="row top-header">
-                    <nav class="navbar navbar-default">
-                        <div class="container-fluid">
-                            <!-- Brand and toggle get grouped for better mobile display -->
-                            <div class="navbar-header">
-                              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                              </button>
-                              <a class="navbar-brand" href="http://www.parentheze.com"><%= image_tag("Parentheze_logo_white.png") %>
-                            </div>
-                            <!-- Collect the nav links, forms, and other content for toggling -->
-                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                              <ul class="nav navbar-nav">
-                                <li class="inscription" >Inscription<span class="sr-only">(current)</span></li> -->
-                                <li><a href="https://medium.com/@parentgenial/manifeste-de-parentheze-2468f5c670eb#.fm07sd4ve" target="_blank">Manifeste</a></li>
-                                <li><a href="https://medium.com/@parentgenial" target="_blank">Blog</a></li>
-                                <li><a href="https://www.facebook.com/parenthezeapp/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                              </ul>
-                            </div><!-- /.navbar-collapse -->
-                        </div><!-- /.container-fluid -->
-                    </nav>
-            </div>
-    <!-- ++++++++++++++++++++++++  VALUE PROPOSITION  ++++++++++++++++++++++++ !-->
-            <div class="container">
-                <div class="row immersion">
-                    <div class="col-xs-12 col-md-12 message text-center">
-                        <h1>La nouvelle vie des Parents.</h1>
-                        <p class="hidden-xs-device hidden-xs-up sous-titre">Rencontre entre parents, échange de garde, mutualisation de babysitter, organisation d’évènements... Entre parents, nous avons tant à partager.</p>
-                        <div class="text-center">
-                        <%= image_tag("windows.png") %>
-                        <%= image_tag("apple.png") %>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-<!-- ++++++++++++++++++++++++  PREVIEW  ++++++++++++++++++++++++++++++++++ !-->
-        <div class="container preview">
-            <div class="row margin-bot120 text-center">
-                <div class="col-xs-12 col-md-6 margin-bot40 hidden-md-device-up hidden-md-up">
-                <p class="sous-titre">Rencontre entre parents, échange de garde, mutualisation de babysitter et bien plus encore... </p>
-                </div>
-                <div class="col-xs-12 col-md-6"><%= image_tag("Webapp_preview.png") %></div>
-                <div class="col-xs-12 col-md-6">
-                    <h1>Trouvez des parents comme vous,</h1>
-                    <p>autour de vous, qui ont les mêmes besoins et les mêmes envies. Parentheze est une plateforme collaborative là pour favoriser les rencontres et les échanges.</p>
-                </div>
-            </div>
-        </div>
+<!-- NAVBAR !-->
+<div class="navbar-wagon">
+  <!-- Logo -->
+  <a href="/" class="navbar-wagon-brand">
+    <%=image_tag("LOGO_retina.png", alt: "Logo de Parentheze")%>
+  </a>
 
-<!-- ++++++++++++++++++++++++  EXEMPLES ++++++++++++++++++++++++++++++++++ !-->
-    <div class="container">
-        <div class="row exemples text-center margin-bot120">
-            <div class="col-xs-12 col-md-12 margin-bot40">
-                <h1>Des forfaits pour la garde des enfants</h1>
-                <p>Parce que payer est parfois plus facile que de demander un service, une compensation est offerte aux parents qui gardent les enfants de leurs voisins et amis.</p>
-            </div>
-            <div class="col-xs-12 col-md-3 thumbnail-container">
-                <div class="thumbnail">
-                    <h1>22€</h1>
-                    <p>La soirée</br>en amoureux</p>
-                </div>
-            </div>
-            <div class="col-xs-12 col-md-3 thumbnail-container   ">
-                <div class="thumbnail">
-                    <h1>35€</h1>
-                    <p>La soirée </br>+ La nuit</p>
-                </div>
-            </div>
-            <div class="col-xs-12 col-md-3 thumbnail-container   ">
-                <div class="thumbnail">
-                    <h1>45€</h1>
-                    <p>La soirée + La nuit</br>+ La grasse mat'</p>
-                </div>
-            </div>
-            <div class="col-xs-12 col-md-3 thumbnail-container   ">
-                <div class="thumbnail">
-                    <h1>45€</h1>
-                    <p>Panique!</br>Grêve à l'école</p>
-                </div>
-            </div>
-        </div>
-    </div>
-<!-- ++++++++++++++++++++++++  FEATURES ++++++++++++++++++++++++++++++++++ !-->
+  <!-- Right Navigation -->
+  <div class="navbar-wagon-right hidden-xs hidden-sm">
 
-    <div class="container-fluid">
-        <div class="row margin-bot120 features text-center">
-            <div class="col-xs-12 col-md-4 text-center">
-                <div class="feature">
-                    <%= image_tag("Pic_geolocaliser.png", class:"pictos")%>
-                    <p>Recherche géolocalisée des parents autour de vous.</p>
-                </div>
-            </div>
-            <div class="col-xs-12 col-md-4 text-center ">
-                <div class="feature">
-                <%= image_tag("Pic_contact.png", class:"pictos") %>
-                <p>Outils de type capsule pour les rencontres de quartier.</p>
-                </div>
-            </div>
-            <div class="col-xs-12 col-md-4 text-center ">
-                <div class="feature">
-                <%= image_tag("Pic_plane.png", class:"pictos") %>
-                <p>Messagerie simplifiée intégrée aux profils parents.</p>
-                </div>
-            </div>
-            <div class="col-xs-12 col-md-4 text-center ">
-                <div class="feature">
-                <%= image_tag("Pic_dollars.png", class:"pictos") %>
-                <p>Paiement sécurisée pour compenser la garde.</p>
-                </div>
-            </div>
-            <div class="col-xs-12 col-md-4 text-center ">
-                <div class="feature">
-                <%= image_tag("Pic_diamond.png", class:"pictos") %>
-                <p>Assurance d'un spécialiste du collaboratif incluse.</p>
-                </div>
-            </div>
-            <div class="col-xs-12 col-md-4 text-center">
-                <div class="feature">
-                <%= image_tag("Pic_coeur.png", class:"pictos") %>
-                <p>Système de réputation pour les bons usages sociaux.</p>
-                </div>
-            </div>
-        </div>
+    <a href="" class="navbar-wagon-item navbar-wagon-link">Contact</a>
+
+    <a href="" class="navbar-wagon-item navbar-wagon-link">Blog</a>
+
+    <!-- Notification link-->
+    <!--     <a href="" class="navbar-wagon-item navbar-wagon-link">
+      <div class="badge-container">
+        <i class="fa fa-envelope-o"></i>
+        <div class="badge badge-blue">3</div>
+      </div>
+    </a> -->
+
+    <!-- Profile picture and dropdown -->
+    <!--     <div class="navbar-wagon-item">
+      <div class="dropdown">
+        <img src="http://placehold.it/50x50" class="avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown">
+        <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">Dashboard</a></li>
+          <li><a href="#">Log Out</a></li>
+        </ul>
+      </div>
+    </div> -->
+
+    <a href="" class="navbar-wagon-item navbar-wagon-button btn">Connexion</a>
+  </div>
+
+  <!-- Dropdown appearing on mobile only = hidden-md hidden-lg -->
+  <div class="navbar-wagon-item hidden-md hidden-lg">
+    <div class="dropdown">
+      <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
+      <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+        <li><a href="#">Connexion</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- BANNER TOP !-->
+<div class="banner" id="top">
+  <div class="banner-content  top text-center">
+    <h1>LA NOUVELLE VIE DES PARENTS</h1>
+    <a class="btn btn-primary btn-lg">INSCRIVEZ-VOUS MAINTENANT</a>
+    <p class="hidden-xs hidden-sm">Réseau social des parents, solutions de garde collaboratives, mutualisation de baby-sitter et actualité dédiée.</p>
+    <p class="hidden-md hidden-lg">Réseau social des parents et</br> solutions de garde collaboratives</p>
+    <a href="#preview" class="scroll"><%=image_tag("arrow.png", alt:"fleche vers le bas pour défiler", class:"pulse btn-scroll-down")%></a>
+  </div>
+</div>
+
+<!-- PREVIEW !-->
+<div class="banner" id="preview">
+    <%=image_tag("preview_mosaique.jpg", alt: "aperçu de la mosaique du réseau social", class:"img-medium hidden-xs hidden-sm")%>
+    <div class="banner-content text-left">
+        <%=image_tag("preview_mosaique.jpg", alt: "aperçu de la mosaique du réseau social de parents", class:"img-medium hidden-md hidden-lg")%>
+        <h2>TROUVEZ DES PARENTS COMME VOUS,</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
+        <a class="btn btn-primary btn-lg">INSCRIVEZ-VOUS MAINTENANT</a>
+        <a href="#plan" class="scroll"><%=image_tag("arrow.png", alt:"fleche vers le bas pour défiler", class:"pulse btn-scroll-down")%></a>
+    </div>
+</div>
+
+
+<!-- PLANS !-->
+<div class="banner text-center" id="plan">
+  <div class="banner-content">
+    <h2>DES FORFAITS DE GARDE ENTRE PARENTS</h2>
+    <p class="hidden-xs">Parce que demander un service gratuit est un frein, que nous ressentons le besoin de nous justifier et n’osons pas abuser. Nous avons pensé à des forfaits de garde entre parents. Les parents et amis reçoivent la garde de vos enfants en échanges d’une compensation de votre part, ou inversement.</p>
+    <p class="hidden-sm hidden-md hidden-lg">Parce que demander un service gratuit à ses amis, voisins parents est un frein, nous avons pensé à des forfaits de garde en échanges d’une compensation de votre part, ou inversement.</p>
+    <div class="plan-card hidden-xs">
+      <%=image_tag("forfait_soiree", alt:"forfait soiree à 22€ pour la garde des enfants", class:"img-wrapper card")%>
+      <%=image_tag("forfait_nuit", alt:"forfait soiree à 38€ pour la garde des enfants", class:"img-wrapper card")%>
+      <%=image_tag("forfait_grassemat", alt:"forfait soiree à 45€ pour la garde des enfants", class:"img-wrapper card")%>
+    </div>
+    <div class="plan-card hidden-sm hidden-md hidden-lg">
+      <%=image_tag("forfait_soiree_inline", alt:"forfait soiree à 22€ pour la garde des enfants", class:"img-wrapper card")%>
+      <%=image_tag("forfait_nuit_inline", alt:"forfait soiree à 38€ pour la garde des enfants", class:"img-wrapper card")%>
+      <%=image_tag("forfait_grassemat_inline", alt:"forfait soiree à 45€ pour la garde des enfants", class:"img-wrapper card")%>
+    </div>
+    <a class="btn btn-primary btn-lg">INSCRIVEZ-VOUS MAINTENANT</a>
+  </div>
+      <a href="#footer" class="scroll"><%=image_tag("arrow.png", alt:"fleche vers le bas pour défiler", class:"pulse btn-scroll-down")%></a>
+</div>
+
+<!-- FOOTER !-->
+<div class="banner text-center" id="footer">
+  <div class="banner-content">
+    <h2>PARENTHEZE, </br> POUR NOUS, LES PARENTS.</h2>
+    <div class="picto-wrapper">
+      <a href="https://medium.com/@parentgenial" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a>
+      <a href="https://www.facebook.com/parenthezeapp/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+      <a href="mailto:parentgenial@parentheze.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+      <a href="https://www.facebook.com/groups/1860665404215862/"><i class="fa fa-users" aria-hidden="true"></i></a>
     </div>
 
-<!-- ++++++++++++++++++++++++  FOOTER   ++++++++++++++++++++++++++++++++++ !-->
-    <div class="container-fluid footer">
-                <div class="container text-center">
-                    <div class="row ">
-                        <div class="col-md-3 col-xs-12">
-                            <a href="http://www.parentheze.com"><%= image_tag ("Parentheze_logo_white.png") %></a>
-                        </div>
-                        <div class="footer-menu col-md-3 col-xs-12">
-                            <ul>
-                            <li><strong>Plan du site</strong></li>
-                            <li><a href="http://www.parentheze.com/blog" target="_blank">Inscription</a></li>
-                            <li><a href="https://medium.com/@parentgenial/manifeste-de-parentheze-2468f5c670eb#.fm07sd4ve" target="_blank">Manifeste</a></li>
-                            <li><a href="https://medium.com/@parentgenial" target="_blank">Blog</a></li>
-                            </ul>
-                        </div>
-                        <div class="footer-menu col-md-3 col-xs-12">
-                            <ul>
-                            <li><strong>Suivez-nous sur:</strong></li>
-                            <li><a href="http://www.facebook.com/parenthezeapp/" target="_blank">Facebook</a></li>
-                            <li><a href="https://twitter.com/@parentgenial/" target="_blank">Twitter</a></li>
-                            <li><a href="https://medium.com/@parentgenial" target="_blank">Medium</a></li>
-                            </ul>
-                        </div>
-                        <div class="footer-menu col-md-3 col-xs-12">
-                            <ul>
-                            <li><strong>Mentions Légales</strong></li>
-                            <li><a href="cgu.pdf" target="_blank">CGU</a></li>
-                            <li><a href="https://goo.gl/forms/wV7vpHRv25BVMyCl2" target="_blank">Nous contacter</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="copyright">
-                    <p class="">Copyright © Parentheze, Tous droits réservés - Fait à Bordeaux avec <img draggable="false" class="emoji" alt="❤" src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Twemoji_2764.svg" data-pin-nopin="true"></p>
-                    </div>
-                </div>
-    </div>
+    <a class="btn btn-primary btn-lg">INSCRIVEZ-VOUS MAINTENANT</a>
+  </div>
+      <a href="#top" class="scroll"><%=image_tag("btn_cup.png", alt:"fleche vers le bas pour défiler", class:"pulse btn-scroll-down")%></a>
+</div>
 
+<!-- SCRIPT !-->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script>
+  $(window).scroll(function() {
+    $('#animatedElement').each(function(){
+    var imagePos = $(this).offset().top;
+
+    var topOfWindow = $(window).scrollTop();
+      if (imagePos < topOfWindow+400) {
+        $(this).addClass("slideUp");
+      }
+    });
+  });
+
+  $(document).on('click', 'a.scroll', function(event){
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 500);
+  });
+</script>

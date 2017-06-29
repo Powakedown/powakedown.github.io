@@ -14,10 +14,18 @@
  *= require_self
  */
 
+/* VENDOR STYLES */
 @import "font-awesome-sprockets";
 @import "font-awesome";
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-
+/* CUSTOM STYLE */
+@import "config/_variables.css.scss";
+@import "animations.css";
+@import "components/_navbar.css";
+@import "config/_custom_bootstrap.css";
+@import "_animations.css";
+@import "_layout_revealer.css";
+@import "pages/_home.css.scss";
 
