@@ -2,38 +2,13 @@
 <!-- NAVBAR !-->
 <div class="navbar-wagon">
   <!-- Logo -->
-  <a href="/" class="navbar-wagon-brand">
-    <%=image_tag("LOGO_retina.png", alt: "Logo de Parentheze")%>
-  </a>
+  <%=link_to image_tag("LOGO_retina.png", alt: "Logo de Parentheze"), root_path, :class => "navbar-wagon-brand" %>
 
   <!-- Right Navigation -->
   <div class="navbar-wagon-right hidden-xs hidden-sm">
-
-    <a href="" class="navbar-wagon-item navbar-wagon-link">Contact</a>
-
-    <a href="" class="navbar-wagon-item navbar-wagon-link">Blog</a>
-
-    <!-- Notification link-->
-    <!--     <a href="" class="navbar-wagon-item navbar-wagon-link">
-      <div class="badge-container">
-        <i class="fa fa-envelope-o"></i>
-        <div class="badge badge-blue">3</div>
-      </div>
-    </a> -->
-
-    <!-- Profile picture and dropdown -->
-    <!--     <div class="navbar-wagon-item">
-      <div class="dropdown">
-        <img src="http://placehold.it/50x50" class="avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown">
-        <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-          <li><a href="#">Profile</a></li>
-          <li><a href="#">Dashboard</a></li>
-          <li><a href="#">Log Out</a></li>
-        </ul>
-      </div>
-    </div> -->
-
-    <a href="" class="navbar-wagon-item navbar-wagon-button btn">Connexion</a>
+    <%= link_to "Contact", "mailto:parentgenial@parentheze", :class => "navbar-wagon-item navbar-wagon-link" %>
+    <%= link_to "Blog", "https://medium.com/@parentgenial", :class => "navbar-wagon-item navbar-wagon-link" %>
+    <%= link_to "Connexion", "Users_path", :class => "navbar-wagon-item navbar-wagon-button btn"%>
   </div>
 
   <!-- Dropdown appearing on mobile only = hidden-md hidden-lg -->
@@ -41,22 +16,23 @@
     <div class="dropdown">
       <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
       <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-        <li><a href="#">Connexion</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><%= link_to "Connexion", "Users_path" %></li>
+        <li><%= link_to "Blog", "http://google.com", :target => "_blank" %></li>
+        <li><%= link_to "Ccntact", "mailo:parentgenial@parentheze.com" %></li>
       </ul>
     </div>
   </div>
+
 </div>
 
 <!-- BANNER TOP !-->
 <div class="banner" id="top">
   <div class="banner-content  top text-center">
     <h1>LA NOUVELLE VIE DES PARENTS</h1>
-    <a class="btn btn-primary btn-lg">INSCRIVEZ-VOUS MAINTENANT</a>
     <p class="hidden-xs hidden-sm">Réseau social des parents, solutions de garde collaboratives, mutualisation de baby-sitter et actualité dédiée.</p>
     <p class="hidden-md hidden-lg">Réseau social des parents et</br> solutions de garde collaboratives</p>
-    <a href="#preview" class="scroll"><%=image_tag("arrow.png", alt:"fleche vers le bas pour défiler", class:"pulse btn-scroll-down")%></a>
+    <%= link_to "INSCRIVEZ-VOUS MAINTENANT", root_path, :class => "btn btn-primary btn-lg" %>
+    <%= link_to image_tag("arrow.png", alt:"fleche vers le bas pour défiler", class:"pulse btn-scroll-down"), "#preview", :class => "scroll" %>
   </div>
 </div>
 
@@ -67,8 +43,8 @@
         <%=image_tag("preview_mosaique.jpg", alt: "aperçu de la mosaique du réseau social de parents", class:"img-medium hidden-md hidden-lg")%>
         <h2>TROUVEZ DES PARENTS COMME VOUS,</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
-        <a class="btn btn-primary btn-lg">INSCRIVEZ-VOUS MAINTENANT</a>
-        <a href="#plan" class="scroll"><%=image_tag("arrow.png", alt:"fleche vers le bas pour défiler", class:"pulse btn-scroll-down")%></a>
+        <%= link_to "INSCRIVEZ-VOUS MAINTENANT", root_path, :class => "btn btn-primary btn-lg" %>
+        <%= link_to image_tag("arrow.png", alt:"fleche vers le bas pour défiler", class:"pulse btn-scroll-down"), "#plan", :class => "scroll" %>
     </div>
 </div>
 
@@ -89,9 +65,9 @@
       <%=image_tag("forfait_nuit_inline", alt:"forfait soiree à 38€ pour la garde des enfants", class:"img-wrapper card")%>
       <%=image_tag("forfait_grassemat_inline", alt:"forfait soiree à 45€ pour la garde des enfants", class:"img-wrapper card")%>
     </div>
-    <a class="btn btn-primary btn-lg">INSCRIVEZ-VOUS MAINTENANT</a>
+    <%= link_to "INSCRIVEZ-VOUS MAINTENANT",root_path, :class => "btn btn-primary btn-lg" %>
   </div>
-      <a href="#footer" class="scroll"><%=image_tag("arrow.png", alt:"fleche vers le bas pour défiler", class:"pulse btn-scroll-down")%></a>
+    <%= link_to image_tag("arrow.png", alt:"fleche vers le bas pour défiler", class:"pulse btn-scroll-down"), "#footer", :class => "scroll" %>
 </div>
 
 <!-- FOOTER !-->
@@ -99,15 +75,14 @@
   <div class="banner-content">
     <h2>PARENTHEZE, </br> POUR NOUS, LES PARENTS.</h2>
     <div class="picto-wrapper">
-      <a href="https://medium.com/@parentgenial" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a>
-      <a href="https://www.facebook.com/parenthezeapp/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-      <a href="mailto:parentgenial@parentheze.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
-      <a href="https://www.facebook.com/groups/1860665404215862/"><i class="fa fa-users" aria-hidden="true"></i></a>
+      <%= link_to content_tag( :i, nil, class:"fa fa-medium"), "https://medium.com/@parentgenial" , :target => "_blank" %>
+      <%= link_to content_tag( :i, nil, class:"fa fa-facebook-square"), "https://www.facebook.com/parenthezeapp/" , :target => "_blank" %>
+      <%= link_to content_tag( :i, nil, class:"fa fa-envelope-o"), "mailto:parentgenial@parentheze.com" , :target => "_blank" %>
+      <%= link_to content_tag( :i, nil, class:"fa fa-users"), "https://www.facebook.com/groups/1860665404215862/" , :target => "_blank" %>
     </div>
-
-    <a class="btn btn-primary btn-lg">INSCRIVEZ-VOUS MAINTENANT</a>
+    <%= link_to "INSCRIVEZ-VOUS MAINTENANT", root_path, :class => "btn btn-primary btn-lg" %>
   </div>
-      <a href="#top" class="scroll"><%=image_tag("btn_cup.png", alt:"fleche vers le bas pour défiler", class:"pulse btn-scroll-down")%></a>
+    <%= link_to image_tag("btn_cup.png", alt:"fleche vers le bas pour défiler", class:"pulse btn-scroll-down"), "#top", :class => "scroll" %>
 </div>
 
 <!-- SCRIPT !-->
