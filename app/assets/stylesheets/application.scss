@@ -1,5 +1,5 @@
 /*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * This is a manifest file that'll be compiled into application, which will include all the files
  * listed below.
  *
  * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
@@ -19,15 +19,15 @@
 @import "font-awesome";
 @import "bootstrap-sprockets";
 @import "bootstrap";
-@import "animations.css";
+@import "animations";
 
 
 /* CUSTOM STYLE */
-@import "config/_variables.css.scss";
-@import "config/_custom_bootstrap.css";
-@import "_layout_revealer.css";
-@import "pages/_home.css.scss";
-@import "components/_picto.css.scss";
-@import "components/_navbar.css.scss";
+@import "config/_variables.scss";
+@import "config/_custom-bootstrap.scss";
+@import "pages/_layout-revealer.scss";
+@import "pages/_home.scss";
+@import "components/_picto.scss";
+@import "components/_navbar.scss";
 
 
