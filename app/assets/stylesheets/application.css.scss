@@ -19,13 +19,15 @@
 @import "font-awesome";
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "animations.css";
+
 
 /* CUSTOM STYLE */
 @import "config/_variables.css.scss";
-@import "animations.css";
-@import "components/_navbar.css";
 @import "config/_custom_bootstrap.css";
-@import "_animations.css";
 @import "_layout_revealer.css";
 @import "pages/_home.css.scss";
+@import "components/_picto.css.scss";
+@import "components/_navbar.css.scss";
+
 
